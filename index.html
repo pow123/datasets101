@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Dataset 101</title>
+
+		<meta name="description" content="Data visualization learning group - Dataset 101">
+		<meta name="author" content="Peace Ossom Williamson">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+<section>
+					<h2>Datasets 101</h2>
+					<p>
+						<small>
+							Peace Ossom Williamson
+							<br />
+							Sailee Pawar
+							<p>
+							<a href="http://libguides.uta.edu/datavizlg">Data Visualization Learning Group</a>
+                        </small></p>
+					</p>
+					<p>
+						<small>presentation: <a href="http://pow123.github.io/datasets101">http://pow123.github.io/datasets101</a></small>
+					</p>
+				</section>
+
+
+
+
+				<section>
+					<h2>Learning Outcomes</h2>
+                    <h4>At the completion of this session, participants will</h4><h5>
+                        <ul>
+                            <li>be able to describe data literacy</li>
+                            <li>understand and identify areas of data responsibility in working with data</li>
+                            <li>demonstrate abilities in structuring and cleaning data</li>
+                            <li>utilize data dictionaries</li>
+                            <li>demonstrate abilities in preparing data for visualization</li>
+                            </ul>
+                    </h5>
+				</section>
+
+				<section>
+					<p>
+                        <h2>Data Literacy</h2>
+                        <img src="https://cdn-images-1.medium.com/max/800/1*w2hgMRXt7ZfiasII0i6l6w.jpeg" alt="Data lit graphic" height = 50% width = 50%></img>
+           <br /><small>The ability to consume for knowledge, produce coherently, and think critically about data</small>
+				</section>
+
+				<section>
+					<h2>Data Responsibility</h2>
+					<h4>Be aware of how data was collected. Some examples:<br />
+                        <ul>
+                            <li>Crime Statistics</li>
+                            <li>Reporting Statistics</li>
+                
+                        </ul>
+                    </h4></img>
+				</section>
+
+    <section data-background="http://www.slate.com/content/dam/slate/blogs/moneybox/2015/08/16/donald_trump_on_immigration_build_border_fence_make_mexico_pay_for_it/483208412-real-estate-tycoon-donald-trump-flashes-the-thumbs-up.jpg.CROP.promo-xlarge2.jpg"><h3> <font color="white">80% voting for Trump!* </h3><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><small><p class="fragment">*10 people polled</p><p class="fragment">... at Trump campaign office</p></small></font></section>
+
+
+				<section>
+					<h2>Correlation versus Causation</h2>
+                    <br /><p>When ice cream sales rise, so do homicides.</p><br /> <p class="fragment">Coincidence? <br />Or will your next cone murder you?</p>
+				</section>
+<section><h2>Don’t confuse skepticism with cynicism.</h2></section>
+    <section><h2>Don’t read what you want into the data.</h2></section>
+    <section><h2>Before you begin</h2> <br /> <h4> Determine what question(s) you are trying to answer.</h4><p><img src="https://marketoonist.com/wp-content/uploads/2014/01/140113.bigdata.jpg"></p></section>
+    <section> <h2>Finding the Data</h2>
+    <h4>Find or request <em>all</em> the variables you may (or may not) need.</h4></section>
+    <section data-background="img/dirtydata.jpg"><h2><font color="red">Taxonomy of Dirty Data</font></h2></section>
+
+    	<section>
+					<h2>Data Structure & Formatting</h2>
+                    <h4>
+                        <ul><center>
+                            <li>Open source file types </h4><small>(For example, CSV intead of XLS)</small></li>
+                            <h4><li>File library naming </h4><small>(Don't use file names like "datasetspres_FINAL.doc")</small></li>
+                            <h4><li>Header names</h4><small>(Don't use spaces, hyphens, or other special characters)</small></li>
+
+                            </ul></center>
+            </section>
+    <section data-background="img/dirtydata2.jpg"><h2><font color="red">Data Cleaning</font></h2></section>
+      
+    <section><h2><font color="red">Data Cleaning</font></h2>
+    <h4>
+        <center> <ul><li>Field uniformity - male, MALE, man, femal, Female, F</li></ul></h4>
+        <small><p class="fragment"><em>Names are the worst - <br />Are Joseph Smith, JT Smith, Joe Smith, Joseph T Smith and Smith, Joseph all the same person?<br /></em></p></small>
+      <h4> <ul> <li>Delimination</li></ul></h4>
+        <small><p class="fragment"><em>First and last names or address info <br />together or separate columns?</em></p></small></center></section>
+    
+    <section><h2>Data Dictionary</h2>
+   <p><h4>A file (PDF, spreadsheet, readme.md, etc.) that tells</h4> </p>
+       <h5><ul>
+            <li>how the data is formatted (delimited text, dBase, etc.)</li>
+            <li>the order of the variables</li>
+            <li>the name of each variable</li> 
+            <li>the datatype of each variable (text string, integer, decimal, etc.)</li> 
+           <li>and explanation of codes (1=Male, 0=Female).</li></h5> </ul></section>
+
+<section data-background="http://static1.squarespace.com/static/556e58aee4b0662cd83b5547/5580d25fe4b062304c321d8b/5580dcc3e4b0d21f0379e302/1434508494637/h3b2.jpg?format=2500w">
+    <h2><font color="#FF4040">Visualization</font><br /><br /><br /><br /><br /></h2>
+</section>
+<section><h2>Start with the data. <br />End with a story.</h2></section>
+
+    <section><img src="http://static1.squarespace.com/static/55b6a6dce4b089e11621d3ed/t/56afeddffd5d08f88ad81c2a/1454370278282/?format=750w" width="100%"></section>
+
+<section>
+    <h2>Tips</h2>
+    <h4><em>Last year, Americans spent X billion dollars on vitamins.</em><p>Provide context:</h4>
+        <h5><center><ul>
+                <li>Proportion</li>
+                <li>Internal comparison</li>
+                <li>External comparison</li>
+                <li>Change over time</li>
+                <li>Combination of methods</li>
+            
+    </ul></p></h5></center></section>
+
+<section>
+    <h2>Tips</h2>
+    <h4><p>Other ways to provide context:</h4>
+        <h5><center><ul>
+                <li>Geographical, historical, or other breakdowns of data</li>
+                <li>Additional data needed to ensure comparisons are fair</li>
+                <li>Any other data to provide interesting analysis to compare or relate spending to</li>
+            
+    </ul></p></h5></center></section>
+
+<!--Bad data viz example-->
+<section><img src="http://static5.businessinsider.com/image/56747d5272f2c10f0f8b6cfb-800-600/01.png" width="100%"></section>
+
+<!--Good data viz example-->
+<section><img src="http://gravyanecdote.com/wp-content/uploads/2016/01/almost-the-same-1.png" width="100%"></section>
+
+<section>
+    <h2><a href="http://libguides.uta.edu/datavizlg">Activity</a></h2></section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
